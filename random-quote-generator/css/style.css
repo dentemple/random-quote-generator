@@ -1,0 +1,62 @@
+body {
+  margin:40px auto;
+  max-width:550px;
+  color:#16a085;
+  background-color: #16a085;
+}
+a {
+  color:white;
+}
+a:hover {
+  color:white;
+}
+blockquote {
+  font-family: Georgia, serif;
+  font-size: large;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+}
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: 0px;
+  top: -30px;
+  color: #ccc;
+}
+cite {
+  font-size: larger;
+  font-style: normal;
+}
+.btn {
+  border: 0 none;
+}
+.btn:hover,.btn:active,.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn.active,.btn:active.focus,.btn.active.focus {
+    outline: none;
+    background-color: white;
+    color: white;
+}
+.fa-color {
+  color: #16a085;
+}
+#quote-header {
+  color: white;
+}
+#quote-section {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  padding:40px 50px;
+}
+#quote-buttons-row {
+  padding-top: 10px;
+}
+#quote-page-footer {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: Lobster;
+}
